@@ -18,7 +18,14 @@ class Home extends statelessWidget {
                 ),
             ],
         ),
-        body: placeholder(),
+        body: placeholder(), 
+        /* body: safeArea(),
+         child:SingleChildScrollView(
+         child: Padding(
+         padding: EdgeInsets.all(20.0),
+         child: column (), )
+         )
+
     );
   }
   
