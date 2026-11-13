@@ -18,15 +18,20 @@ class Home extends statelessWidget {
                 ),
             ],
         ),
-        body: placeholder(), 
-        /* body: safeArea(),
-         child:SingleChildScrollView(
-         child: Padding(
-         padding: EdgeInsets.all(20.0),
-         child: column (), )
-         )
-
+        body: Column(),
+        children: [
+          container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(20)
+            child: const Text(
+              "Elective I",
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
     );
   }
-  
 }
